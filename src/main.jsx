@@ -7,6 +7,7 @@ import './index.css'
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx"
 import Error from "./pages/Error.jsx"
+import Resume from "./pages/Resume.jsx"
 
 const router = createBrowserRouter ([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter ([
       {
         path: "/About",
         element: <About />
+      },
+      {
+        path: "/Resume",
+        element: <Resume />
       }
     ]
   }
