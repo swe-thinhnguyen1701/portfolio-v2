@@ -8,6 +8,7 @@ import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx"
 import Error from "./pages/Error.jsx"
 import Resume from "./pages/Resume.jsx"
+import Project from "./pages/Project.jsx"
 
 const router = createBrowserRouter ([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter ([
       {
         path: "/Resume",
         element: <Resume />
+      },
+      {
+        path: "/Projects",
+        element: <Project />
       }
     ]
   }
