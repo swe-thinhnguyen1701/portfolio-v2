@@ -395,6 +395,17 @@ nav .list-inline .highlight {
   margin-right: .3em;
 }
 
+.about-me-heading{
+  width: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.about-me-heading .img{
+  width: 100%;
+}
+
 @media screen and (min-width: 1024px) {
   .about-me {
     flex-direction: row;
@@ -409,6 +420,12 @@ nav .list-inline .highlight {
 
   .about-me p {
     font-size: 1.6rem;
+  }
+
+  .about-me-heading{
+    width: 600px;
+    margin-bottom: 0;
+    margin-right: 30px;
   }
 }
 

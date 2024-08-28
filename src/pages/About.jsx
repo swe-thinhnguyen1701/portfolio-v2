@@ -1,9 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
-function About() {
+import myAvatar from "../images/my-avatar.jpeg";
+
+function About () {
     return (
         <section className="about-me section">
             <div className="about-me-heading">
-                <h3>About Me</h3>
+                <img src={myAvatar} alt="my avatar" className="img"/>
             </div>
             <div className="about-me-content">
                 <p className="first-p">Hi, my name is Thinh Nguyen, and I also go by Charles. I am a passionate and dedicated full stack developer with a strong foundation in applied mathematics, having earned my bachelor's degree from San Jose State University. Currently, I am furthering my expertise by taking a full-stack developer bootcamp at UC Berkeley.
