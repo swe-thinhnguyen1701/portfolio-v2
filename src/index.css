@@ -114,6 +114,10 @@ main {
   transition: all 0.2s ease-in;
 }
 
+.link-btn:visited {
+  color: var(--font-green-color);
+}
+
 .link-btn:hover {
   background-color: var(--dark-green);
   color: white;
@@ -395,23 +399,33 @@ nav .list-inline .highlight {
   margin-right: .3em;
 }
 
-.about-me-heading{
+.about-me-heading {
   width: 300px;
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: 30px;
 }
 
-.about-me-heading .img{
+.about-me-heading .img {
   width: 100%;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   .about-me {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
   }
+
+  .about-me-heading {
+    width: 100%;
+    margin-bottom: 0;
+    margin-right: 30px;
+    max-width: 900px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
 
   .about-me h3 {
     font-size: 4rem;
@@ -420,12 +434,6 @@ nav .list-inline .highlight {
 
   .about-me p {
     font-size: 1.6rem;
-  }
-
-  .about-me-heading{
-    width: 600px;
-    margin-bottom: 0;
-    margin-right: 30px;
   }
 }
 
@@ -629,21 +637,21 @@ footer {
   background-color: white;
   border-color: white;
   color: var(--dark-green);
-  cursor:default;
+  cursor: default;
 }
 
-@media screen and (min-width: 768px){
-  .project-card-header{
+@media screen and (min-width: 768px) {
+  .project-card-header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
 
-  .project-card-footer .badge{
+  .project-card-footer .badge {
     margin-right: 8px;
   }
 
-  .project-card-footer .badge:last-child{
+  .project-card-footer .badge:last-child {
     margin: 0;
   }
 }

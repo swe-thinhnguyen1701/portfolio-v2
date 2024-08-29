@@ -10,8 +10,8 @@ function ProjectCard ({img, project}) {
             <div className="project-card-header">
                 <h3>{project.title}</h3>
                 <div className="project-card-controller">
-                    <a className="link link-btn">DEMO</a>
-                    <a className="link link-btn">CODE</a>
+                    <a href={project.demo !== null ? project.demo : "#"} className="link link-btn" target="_blank">{project.demo !== null ? "DEMO" : "IN PROGRESS"}</a>
+                    <a href={project.code} className="link link-btn" target="_blank">CODE</a>
                 </div>
             </div>
             <div className="project-card-body">
