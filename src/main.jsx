@@ -9,8 +9,9 @@ import About from "./pages/About.jsx"
 import Error from "./pages/Error.jsx"
 import Resume from "./pages/Resume.jsx"
 import Project from "./pages/Project.jsx"
+import Contact from "./pages/Contact.jsx"
 
-const router = createBrowserRouter ([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
@@ -31,6 +32,10 @@ const router = createBrowserRouter ([
       {
         path: "/Projects",
         element: <Project />
+      },
+      {
+        path: "/Contact",
+        element: <Contact />
       }
     ]
   }

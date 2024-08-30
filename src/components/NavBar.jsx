@@ -20,7 +20,7 @@ function NavBar() {
                     <Link to="/Resume" className={currentPage === "/Resume" ? "link highlight" : "link"}>Resume</Link>
                 </li>
             </ul>
-            <button className="btn contact-me-btn">Contact Me</button>
+            <Link to="/Contact" className="link btn contact-me-btn">Contact Me</Link>
         </nav>
     );
 }
