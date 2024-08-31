@@ -524,7 +524,7 @@ footer {
   display: flex;
   justify-content: space-between;
   width: 110%;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .education-school {
@@ -550,6 +550,10 @@ footer {
     font-size: 1.4rem;
   }
 
+  .resume:nth-child(2){
+    max-width: 1000px;
+  }
+
   .resume h3 {
     font-size: 2.5rem;
   }
@@ -564,6 +568,10 @@ footer {
 
   .education:nth-child(even) {
     flex-direction: row-reverse;
+  }
+
+  .education:hover .education-icon{
+    color: var(--dark-green);
   }
 
   .education-time {
@@ -586,6 +594,7 @@ footer {
 
   .time-line {
     left: 275px;
+    height: 580px;
   }
 }
 
@@ -596,6 +605,12 @@ footer {
 
   .time-line {
     left: 312px;
+  }
+}
+
+@media screen and (min-width: 1300px){
+  .resume{
+    font-size: 1.5rem;
   }
 }
 
