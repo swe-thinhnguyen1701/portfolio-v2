@@ -144,6 +144,16 @@ main {
   background-color: var(--dark-green);
 }
 
+.send-btn{
+  border: 1px solid var(--font-green-color);
+  background-color: unset;
+  color: white;
+}
+
+.send-btn:hover{
+  background-color: var(--dark-green);
+}
+
 /* NAV BAR */
 
 .nav-my-name {
@@ -659,6 +669,9 @@ footer {
 /* FORM */
 form{
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .form-group{
@@ -668,10 +681,11 @@ form{
   display: flex;
   flex-direction: column;
   transition: border-color 0.5s ease-in;
+  width: 100%;
 }
 
 .form-group label{
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -681,7 +695,7 @@ form{
   border: 0;
   outline: none;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .form-group:focus-within{
@@ -690,4 +704,25 @@ form{
 
 .form-group:hover{
   border-color: var(--font-green-color);
+}
+
+textarea{
+  resize: none;
+}
+
+@media screen and (min-width: 768px){
+
+}
+
+/* contact */
+.contact{
+  max-width: 700px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.contact h2{
+  font-size: 3rem;
+  margin-bottom: 30px;
 }
