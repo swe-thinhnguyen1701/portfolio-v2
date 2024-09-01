@@ -1,5 +1,10 @@
 import projectImgOne from "../images/call-of-dragons.webp";
 import projectImgTwo from "../images/weavers-job.webp";
+import projectImgThree from "../images/jate.webp";
+import projectImgFour from "../images/game-gaze.webp";
+import projectImgFive from "../images/portfolio-v1.webp";
+
+
 import ProjectCard from "../components/ProjectCard";
 
 const PROJECT_ARRAY = [
@@ -27,6 +32,45 @@ const PROJECT_ARRAY = [
             technologies: ["Handlebars", "PostgreSQL", "Node.js", "Express", "Multer", "CSS", "JS"],
             demo: "https://weaversjob.onrender.com",
             code: "https://github.com/swe-thinhnguyen1701/job-board",
+        }
+    },
+    {
+        img: {
+            url: projectImgThree,
+            description: "Jate project image"
+        },
+        info: {
+            title: "J.A.T.E",
+            description: "Just Another Text Editor (J.A.T.E) is a Progressive Web App (PWA) that allows you to edit and save text files offline. It features a clean, intuitive interface and supports installation on your device for a native-like experience.",
+            technologies: ["HTML", "CSS", "JS", "Webpack", "Workbox", "Babel", "Concurrently"],
+            demo: "https://text-editor-ofqn.onrender.com",
+            code: "https://github.com/swe-thinhnguyen1701/text-editor",
+        }
+    },
+    {
+        img: {
+            url: projectImgFour,
+            description: "Game Gaze project image"
+        },
+        info: {
+            title: "Game Gaze",
+            description: `Just Another Text Editor (J.A.T.E) is a Progressive Web App (PWA) that allows you to edit and save text files offline. It features a clean, intuitive interface and supports installation on your device for a native-like experience.`,
+            technologies: ["HTML", "CSS", "JS", "JQuery"],
+            demo: "https://bragonese1.github.io/game-gaze/",
+            code: "https://github.com/bragonese1/game-gaze?tab=readme-ov-file",
+        }
+    },
+    {
+        img: {
+            url: projectImgFive,
+            description: "Portfolio project version 1.0 image"
+        },
+        info: {
+            title: "Portfolio v1",
+            description: `My first portfolio`,
+            technologies: ["HTML", "CSS", "JS"],
+            demo: "https://swe-thinhnguyen1701.github.io/portfolio/",
+            code: "https://github.com/swe-thinhnguyen1701/portfolio",
         }
     }
 ]

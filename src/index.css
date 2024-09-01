@@ -37,6 +37,12 @@ p {
   line-height: 1.5;
 }
 
+@media screen and (min-width: 1300px){
+  p{
+    font-size: 1.7rem;
+  }
+}
+
 header {
   position: sticky;
   top: 0;
@@ -622,6 +628,10 @@ footer {
 
 .img-container img {
   width: 100%;
+}
+
+.project-card{
+  margin-bottom: 50px;
 }
 
 .project-card-header,
