@@ -3,6 +3,7 @@ import projectImgTwo from "../images/weavers-job.webp";
 import projectImgThree from "../images/jate.webp";
 import projectImgFour from "../images/game-gaze.webp";
 import projectImgFive from "../images/portfolio-v1.webp";
+import projectImgSix from "../images/tealicious.webp";
 
 
 import ProjectCard from "../components/ProjectCard";
@@ -16,9 +17,22 @@ const PROJECT_ARRAY = [
         info: {
             title: "Call of Dragons",
             description: "The Call of Dragons Companion Website is a project I initiated to fill the gap left by the lack of a comprehensive online resource for players of the game Call of Dragons. This website is designed to provide detailed information on various aspects of the game, including: version details, hero information, simulation talent tree, and cost-saving tips.",
-            technologies: ["HTML", "CSS", "JS", "JQuery", "Handlebars", "Node.js", "Express", "AWS S3 Bucket", "Photopea"],
+            technologies: ["React", "JS", "Photopea", "AWS S3", "MongoDB", "GraphQL", "Apollo", "Apollo Client", "Node.js", "Express"],
             demo: null,
             code: "https://github.com/swe-thinhnguyen1701/call-of-dragons",
+        }
+    },
+    {
+        img: {
+            url: projectImgSix,
+            description: "Tealicious project image"
+        },
+        info: {
+            title: "Tealicious",
+            description: "Tealicious is an e-commerce website offers users the ability to browse and purchase a wide variety of teas with ease. Whether you're a casual guest or a registered member, you'll enjoy a seamless and interactive shopping experience powered by modern web technologies. ",
+            technologies: ["AWS S3", "React", "Apollo", "Node.js", "MongoDB", "GraphQL", "Stripe"],
+            demo: "https://tealicious.onrender.com/",
+            code: "https://github.com/swe-thinhnguyen1701/TeaLicious",
         }
     },
     {
